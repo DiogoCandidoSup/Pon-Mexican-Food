@@ -1,0 +1,97 @@
+*
+{
+    font-family: Arial;
+}
+
+header img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+
+}
+
+main
+{
+    background-image: url("../img/background-ayayay.png");
+    background-size: cover;
+}
+
+/*CARDAPIO*/
+
+.cardapio
+{
+	text-align: center;
+	padding: 15px 0;
+}
+
+.cardapio img
+{
+	max-height: 200px;
+}
+
+.cardapio hr
+{
+	width: 230px;
+}
+
+.linhabaixo
+{
+	margin-bottom: 25px;
+}
+
+.cardapio hr
+{
+	width: 230px;
+}
+
+/* RECEITA */
+
+.receita
+{
+    text-align: center;
+}
+
+.receita p
+{
+    color: blue;
+}
+
+.receita hr
+{
+	width: 400px;
+}
+
+/* CADASTRO */
+
+.cadastro h1
+{
+	text-align: center;
+}
+
+.cadastro form
+{
+	text-align: center;
+}
+
+.cadastro
+{
+	margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 0;
+    align-items: center;
+
+    
+}
+
+footer p
+{
+    line-height: 0.2;
+}
